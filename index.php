@@ -45,6 +45,21 @@
 
 ?>
 
+<?php
+
+    // Laços de repetição
+    echo "<h3> Laço for </h3>";
+    for ($i = 1; $i <= 3; $i++) {
+        echo "Volta número $i <br>";
+    };
+
+    echo "<h3> Laço foreach </h3>";
+    $linguagens = ["PHP", "JavaScript", "Python"];
+    foreach ($linguages as $item) {
+        echo "Linguagem: $item <br>";
+    }
+
+?>
 </body>
 
 </html>
