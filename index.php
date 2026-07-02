@@ -54,7 +54,7 @@
     };
 
     echo "<h3> Laço foreach </h3>";
-    $linguagens = ["PHP", "JavaScript", "Python"];
+    $linguagens = ["PHP", "JavaScript", "Python", "Portugol", "TypeScript", "C#"];
     foreach ($linguagens as $item) {
         echo "Linguagem: $item <br>";
     }
