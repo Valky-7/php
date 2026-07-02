@@ -55,7 +55,7 @@
 
     echo "<h3> Laço foreach </h3>";
     $linguagens = ["PHP", "JavaScript", "Python"];
-    foreach ($linguages as $item) {
+    foreach ($linguagens as $item) {
         echo "Linguagem: $item <br>";
     }
 
