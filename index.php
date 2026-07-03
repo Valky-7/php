@@ -61,7 +61,7 @@
 
     // Declaração da função com parâmetros
     function calcularDesconto($valorTotal, $porcentagem) {
-        $desconto = $valorTotal * ($porcentagem /100);
+        $desconto = $valorTotal * ($porcentagem / 100);
         return $valorTotal - $desconto;
     }
     // Chamada e atribuição do retorno da função
