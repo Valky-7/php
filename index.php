@@ -79,7 +79,8 @@
             echo num1 * num2;
         } elseif ($operacao == 'div') 
             echo num1 / num2;    
-        {;
+        {
+    {;
 
 ?>
 </body>
