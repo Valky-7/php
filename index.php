@@ -69,6 +69,18 @@
     $valorFinal = calcularDesconto(250.00, 10);
     echo "<b>Valor com desconto: R$ $valorFinal </b>"; // 225
 
+    
+    function calculo($num1, $num2, $operacao) {
+        if ($operacao == 'soma') {
+            echo num1 + num2;
+        } elseif ($operacao == 'sub') {
+            echo num1 - num2;
+        } elseif ($operacao == 'mult') {
+            echo num1 * num2;
+        } elseif ($operacao == 'div') 
+            echo num1 / num2;    
+        {;
+
 ?>
 </body>
 
