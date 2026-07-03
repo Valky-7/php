@@ -56,8 +56,18 @@
     echo "<h3> Laço foreach </h3>";
     $linguagens = ["PHP", "JavaScript", "Python", "Portugol", "TypeScript", "C#"];
     foreach ($linguagens as $item) {
-        echo "Linguagem: $item <br>";
+        echo "Linguagem: $item <br>";      
     }
+
+    // Declaração da função com parâmetros
+    function calcularDesconto($valorTotal, $porcentagem) {
+        $desconto = $valorTotal * ($porcentagem /100);
+        return $valorTotal - $desconto;
+    }
+    // Chamada e atribuição do retorno da função
+    echo "<br><br>Calcular 10% de desconto de 250 <br>";
+    $valorFinal = calcularDesconto(250.00, 10);
+    echo "<b>Valor com desconto: R$ $valorFinal </b>"; // 225
 
 ?>
 </body>
